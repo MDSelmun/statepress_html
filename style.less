@@ -1,0 +1,320 @@
+/*--------------------------------------------------------
+
+Theme Name: Evada Ultimate Multipurpose Corporate Template 
+Theme URI: http://Periodicitems.com/
+Author: Periodicitems
+Author URI: http://Periodicitems.com/
+Description: Evada Ultimate Multipurpose Corporate Template
+Version: 1.0
+
+-------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+---------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+   @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+    @primary-color:#4cb753;
+    @hover-color:#2b9a32;
+    @transition:all 0.5s ease 0s;
+    @body-font: 'Open Sans', sans-serif;
+    @title-font: 'Raleway', sans-serif;
+    @color:#6a6a6a;
+    html,
+    body {
+      height: 100%;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          line-height: 24px;
+          vertical-align: baseline;
+          color: #6a6a6a;
+          background: url(img/body-bg.jpg);
+          background-position: center;
+          background-size: cover;
+    }
+    .floatleft {
+      float: left;
+    }
+    .floatright {
+      float: right;
+    }
+    .alignleft {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+    .alignright {
+      float: right;
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+    .aligncenter {
+      display: block;
+      margin: 0 auto 15px;
+    }
+    a:focus {
+      outline: 0px solid;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .fix {
+      overflow: hidden;
+    }
+    p {
+      margin: 0 0 15px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0 0 25px;
+    }
+    h1{
+        font-size:60px;
+    }
+    h2{
+        font-size:40px;
+    }
+    h3{
+        font-size:30px;
+    }
+    h4{
+        font-size:20px;
+    }
+    a {
+        -webkit-transition: @transition;
+        transition: @transition;
+        text-decoration: none;
+    }
+    a:hover {
+      color: @hover-color;
+      text-decoration: none;
+      -webkit-transition: @transition;
+      transition: @transition;
+    }
+    a:active,
+    a:hover {
+      outline: 0 none;
+    }
+    ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0;
+    }
+    .clear {
+      clear: both;
+    }
+    .browserupgrade {
+      margin: 0.2em 0;
+      background: #ccc;
+      color: @primary-color;
+      padding: 0.2em 0;
+    }
+    .margin-top{
+      margin-top: 60px;
+    }
+#intro{
+    background:url(img/bg.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+}
+.story{
+    position:relative;
+    top: 40%;
+    .header-content{
+        h1{
+            span{
+                color:#f1f1f1;
+                font-weight:600;
+            }
+        }
+    }
+}
+.display-all-pages{
+    margin: 150px 0;
+    h3{
+        color:#111111;
+        margin-bottom:60px;
+        span{
+            font-weight:600;
+        }
+    }
+    .single-page-area{
+    .single-pages{
+        background:transparent;
+        transition:@transition;
+        display: block; 
+           position: relative;
+           overflow: hidden; 
+           &:hover{
+             i{
+              opacity: 1;
+              color: #ffffff;
+             }             
+             &:after{
+               opacity: 1;
+               transform:scale(1);
+             } 
+         
+           }
+           a{
+             display: block;
+             img{
+               width: 100%;
+             }
+             i{
+               background:@primary-color;
+               border-radius: 50%;
+               -moz-border-radius: 50%;
+               -webkit-border-radius: 50%;
+               bottom: 0;
+               height: 40px;
+               left: 0;
+               line-height: 40px;
+               margin: auto;
+               opacity: 0;
+               padding: 0;
+               position: absolute;
+               right: 0;
+               text-align: center;
+               top: 3%;
+               transform: translateY(-100%);
+               width: 40px;
+               z-index: 99;
+               color: #ffffff;
+             }
+
+           }
+
+           &:after{
+             position: absolute;
+             content: "";
+             top: 0;
+             bottom: 0;
+             left: 0;
+             right: 0;
+             margin:auto;
+             text-align: center;
+             height: 100%;
+             width: 100%;            
+             transition:@transition;
+             opacity: 1;
+             transform: scale(0);
+           }
+
+        a{
+            display:block;
+            img{
+                width:100%;
+            }
+        }
+    
+    }
+
+    h4{
+        margin:10px 0;
+        padding:10px 0;
+        a{
+            color:#222222;
+            transition:@transition;
+
+            &:hover{
+                color: @primary-color;
+            }
+        }
+    }
+}
+}
+
+/* -------------------------------------
+ 12. footer top area start
+ -------------------------------------- */
+ footer{
+       background:#222222;
+       background-size: cover;
+.footer-bottom-area{
+  padding:45px 0;
+  .footer-bottom-left{
+    p{
+      text-align: left;
+      color: #5a6771;
+      margin: 10px 0 0;
+      a{
+        font-weight: bold;
+        color: #ffffff;
+      }
+    
+    }
+  }
+  .subscribe{
+    text-align: right;
+    p{
+     color:#ffffff;
+     margin: 5px 0 0 0;
+ 
+    }
+  }
+  
+.search-area{ 
+  #custom-search-input {
+  margin:0;
+  margin-top:0px;
+  padding: 0;
+  }     
+  #custom-search-input .search-query {
+  padding-right: 3px;
+  padding-right: 4px;
+  padding-left: 3px;
+  padding-left: 4px;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: transparent;
+  left: 0;
+  position: absolute;
+  }
+  #custom-search-input button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 4px;
+  position: relative;
+  left: 0px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color:@primary-color;
+  span{
+  i{
+  font-size: 16px;
+  color: #00aeef;
+  }
+  }
+  }     
+  .search-query:focus + button {
+  z-index: 9;   
+  }
+
+}
+}
+
+}
